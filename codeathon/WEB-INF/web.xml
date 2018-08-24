@@ -1,0 +1,22 @@
+<web-app>
+    <servlet>
+        <servlet-name>InputForm</servlet-name>
+        <servlet-class>InputFormAction</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>InputForm</servlet-name>
+        <url-pattern>/servlet1</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ListDetails</servlet-name>
+        <servlet-class>ListDetails</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ListDetails</servlet-name>
+        <url-pattern>/listdata</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>  
